@@ -43,3 +43,24 @@ function calculateAge() {
     return;
   }
 
+   // Calculate differences
+  let ageYears = today.getFullYear() - dob.getFullYear();
+  let ageMonths = today.getMonth() - dob.getMonth();
+  let ageDays = today.getDate() - dob.getDate();
+
+  // Adjust days if negative
+  if (ageDays < 0) {
+    ageMonths--; // Borrow 1 month
+    const prevMonth = new Date(today.getFullYear(), today.getMonth(), 0); // Last day of previous month
+    ageDays += prevMonth.getDate(); // Add days from previous month
+  }
+
+  //  Adjust months if negative
+  if (ageMonths < 0) {
+    ageYears--; // Borrow 1 year
+    ageMonths += 12;
+  }
+
+  // Show result
+  result.textContent = ` You are ${ageYears} years, ${ageMonths} months, and ${ageDays} days old.`;
+}
