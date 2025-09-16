@@ -8,7 +8,7 @@ Each task demonstrates problem-solving skills, clean coding practices, and pract
 ## Projects  
 
 1. **Age Calculator**  
-   - A simple tool that calculates a person’s age based on the entered date of birth. 
+A simple tool that calculates a person’s age based on the entered date of birth. 
 
 --- 
 
@@ -25,9 +25,7 @@ Each task demonstrates problem-solving skills, clean coding practices, and pract
    ```bash
    git clone https://github.com/Rue87/codealpha_tasks.git
 
-2. Navigate into the project folder:
-
-cd codealpha_tasks
+2. Navigate into the project folder: cd codealpha_tasks
 
 3. Open the project files in your browser or editor.
 
@@ -41,11 +39,11 @@ cd codealpha_tasks
 
 codealpha_tasks/
 │
-├── Age_Calculator/        # Task 1: Age Calculator project files
+├── Age_Calculator/        
 │   ├── index.html
 │   ├── style.css
 │   ├── script.js
-│   └── README.md          # Task-specific documentation
+│   └── README.md          
 │
 └── README.md              # Main repo documentation (this file)
 
