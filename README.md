@@ -33,7 +33,7 @@ A simple tool that calculates a person’s age based on the entered date of birt
 
 - Enter your date of birth in the input field.
 - Click the "Calculate Age" button.
-- The tool will instantly display your current age in years (and in some cases, months and days).
+- The tool will instantly display your current age in years, months and days.
 
 ## 📁 Project Structure
 
