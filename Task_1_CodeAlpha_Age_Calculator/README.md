@@ -36,8 +36,9 @@ A simple tool that calculates a person’s age based on the entered date of birt
 - Click the "Calculate Age" button.
 - The tool will display your current age in years, months, and days.
 
-## 📁 Project Structure
+## 📁 Project Structure  
 
+```
 codealpha_tasks/
 │
 ├── Task_1_CodeAlpha_Age_Calculator/        
@@ -47,6 +48,7 @@ codealpha_tasks/
 │   └── README.md          
 │
 └── README.md              # Main repo documentation (this file)
+```
 
 ## 🤝 Collaboration
 
