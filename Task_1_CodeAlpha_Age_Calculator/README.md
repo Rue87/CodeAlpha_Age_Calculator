@@ -18,35 +18,35 @@ A simple tool that calculates a person’s age based on the entered date of birt
 - JavaScript  
 
 ---
-
+ 
 ## 🚀 How to Run  
 
 1. Clone the repository:  
-   ```bash
+   ```powershell
    git clone https://github.com/Rue87/codealpha_tasks.git
 
-2. Navigate into the project folder: cd codealpha_tasks
+2. Navigate into the Task 1 folder: cd codealpha_tasks\Task_1_CodeAlpha_Age_Calculator
 
-3. Open the project files in your browser or editor.
+
+3. Open index.html in your browser to run the project.
 
 ## 🧮 How to Use the Age Calculator
 
-- Enter your date of birth in the input field.
+- Enter your date of birth in the input fields.
 - Click the "Calculate Age" button.
-- The tool will instantly display your current age in years, months and days.
+- The tool will display your current age in years, months, and days.
 
 ## 📁 Project Structure
 
 codealpha_tasks/
 │
-├── Age_Calculator/        
+├── Task_1_CodeAlpha_Age_Calculator/        
 │   ├── index.html
-│   ├── style.css
+│   ├── styles.css
 │   ├── script.js
 │   └── README.md          
 │
 └── README.md              # Main repo documentation (this file)
-
 
 ## 🤝 Collaboration
 
